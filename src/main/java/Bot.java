@@ -61,7 +61,7 @@ public class Bot {
         Commands.put("help", com -> System.out.println("This is a primitive chat bot with a few commands.\n \'help\' - this command shows you what chat bod can do \n \'authors\' - this command introduces the authors of the Chat Bot\n \'echo\' - this command just shows you what you wrote \n \'horoscope\' - coming soon... \n \'some\' - this command will let the bot to sing you a song \n \'exit\' - this command closes the console"));
         Commands.put("authors", com -> System.out.println("This bot is made by Stepanov Vasiliy and Davydova Alena for university course"));
         Commands.put("echo", com -> {
-            if (com.length() > 4)
+            if (com.length() > 5)
                 System.out.println(com.substring(5));});
         Commands.put("weather", com -> System.out.println("Coming soon..."));
         Commands.put("some", com -> System.out.println(lyrics));
@@ -78,7 +78,7 @@ public class Bot {
             //System.out.println(command);
             //for (int i=0; i<Commands.size(); i++) {
                 if (Commands.containsKey(command)) {
-                    Commands.get(command).accept(command);
+                    Commands.get(command).accept(input);
                 }
                 else
                     System.out.println("Данной команды не существует");
