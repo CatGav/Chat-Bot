@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9457b912-5e76-437a-979c-a7ec9623cbf7" name="Default Changelist" comment="" />
+    <list default="true" id="9457b912-5e76-437a-979c-a7ec9623cbf7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Bot.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RfjVmZUkJQM6IYtXGrtrYJ9dfk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,20 +29,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunManager">
     <configuration name="Bot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -50,6 +57,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,6 +80,14 @@
       <option name="presentableId" value="Default" />
       <updated>1570065072288</updated>
       <workItem from="1570065077304" duration="207000" />
+      <workItem from="1570071340737" duration="4677000" />
+      <workItem from="1570692867777" duration="1779000" />
+      <workItem from="1570695133024" duration="80000" />
+      <workItem from="1571057533952" duration="664000" />
+      <workItem from="1572242817529" duration="1726000" />
+      <workItem from="1573452876063" duration="2097000" />
+      <workItem from="1573662969141" duration="1131000" />
+      <workItem from="1573742599120" duration="744000" />
     </task>
     <servers />
   </component>
@@ -68,10 +95,62 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1570065077321">
+    <state x="490" y="229" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1571058035117">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1570065077321" />
+    <state x="490" y="229" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1571058035117" />
+    <state x="221" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1571058027815">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1280.680@0.0.1280.680" timestamp="1571058027815" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1573742825003">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1573742825003" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1573742825002">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1573742825002" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1573742825001">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1573742825001" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1573742825003">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1573742825003" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1573664078409">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1573664078409" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1573664078409">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1573664078409" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1573664078409">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1573664078409" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1573664078409">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1573664078409" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1570692953528">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1570692953528" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1571058114557">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1571058114557" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1573742602685">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1573742602685" />
+    <state x="282" y="67" width="700" height="530" key="recent.locations.popup" timestamp="1570071634686">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="282" y="67" width="700" height="530" key="recent.locations.popup/0.0.1280.680@0.0.1280.680" timestamp="1570071634686" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1570065174037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
