@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9457b912-5e76-437a-979c-a7ec9623cbf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Bot.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -87,7 +86,9 @@
       <workItem from="1572242817529" duration="1726000" />
       <workItem from="1573452876063" duration="2097000" />
       <workItem from="1573662969141" duration="1131000" />
-      <workItem from="1573742599120" duration="744000" />
+      <workItem from="1573742599120" duration="2501000" />
+      <workItem from="1574061560539" duration="2550000" />
+      <workItem from="1574660953227" duration="36000" />
     </task>
     <servers />
   </component>
@@ -95,6 +96,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1574062266115">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1574062266115" />
     <state x="490" y="229" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1571058035117">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -103,22 +108,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="221" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1280.680@0.0.1280.680" timestamp="1571058027815" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1573742825003">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1574660984682">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1573742825003" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1573742825002">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1574660984682" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1573747100685">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1573742825002" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1573742825001">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1573747100685" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1573747100685">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1573742825001" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1573742825003">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1573747100685" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1573747100684">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1573742825003" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1573747100684" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1573747100685">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1573747100685" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1573664078409">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -143,10 +152,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1571058114557" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1573742602685">
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1574660954173">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1573742602685" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1574660954173" />
     <state x="282" y="67" width="700" height="530" key="recent.locations.popup" timestamp="1570071634686">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

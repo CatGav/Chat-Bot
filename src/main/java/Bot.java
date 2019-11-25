@@ -1,4 +1,4 @@
-import java.util.HashMap;
+﻿import java.util.HashMap;
 import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;
@@ -63,7 +63,7 @@ public class Bot {
         Commands.put("echo", com -> {
             if (com.length() > 5)
                 System.out.println(com.substring(5));});
-        Commands.put("weather", com -> System.out.println("Coming soon..."));
+        Commands.put("horoscope", com -> System.out.println("Coming soon..."));
         Commands.put("some", com -> System.out.println(lyrics));
         Commands.put("exit", com -> {
             System.out.println("Bye! Hope to see you again. Have a nice day :3");
@@ -75,40 +75,11 @@ public class Bot {
             String input = in.nextLine();
             int space = input.indexOf(' ');
             String command = space < 0 ? input : input.substring(0, space);
-            //System.out.println(command);
-            //for (int i=0; i<Commands.size(); i++) {
                 if (Commands.containsKey(command)) {
                     Commands.get(command).accept(input);
                 }
                 else
                     System.out.println("Данной команды не существует");
-            //}
-/*
-            switch (command) {
-                case ("help"):
-                    System.out.println("This is a primitive chat bot with a few commands.\n \'help\' - this command shows you what chat bod can do \n \'authors\' - this command introduces the authors of the Chat Bot\n \'echo\' - this command just shows you what you wrote \n \'horoscope\' - coming soon... \n \'some\' - this command will let the bot to sing you a song \n \'exit\' - this command closes the console");
-                    break;
-                case ("authors"):
-                    System.out.println("This bot is made by Stepanov Vasiliy and Davydova Alena for university course");
-                    break;
-                case ("echo"):
-                    if (input.length() > 4)
-                        System.out.println(input.substring(5));
-                    break;
-                case ("weather"):
-                    System.out.println("Coming soon...");
-                    break;
-                case ("some"):
-                    System.out.println(lyrics);
-                    break;
-                case ("exit"):
-                    System.out.println("Bye! Hope to see you again. Have a nice day :3");
-                    working = false;
-                    break;
-                default:
-                    System.out.println("Unknown command. Try help");
-
- */
             }
         }
     }
